@@ -2,4 +2,23 @@
     color: rgba(0,0,0,.9);
     background-color: red;
 }
-    
+    /* footer */
+    .footer{
+        background-color: grey;
+        color: white;
+        height: 400px;
+    }
+
+.footer .footer-bottom {
+    background-color: rgb(83, 81, 81);
+    color: rgb(216, 199, 199);
+    height: 50px;
+    text-align: center;
+    position:absolute;
+    /* spread across the entire screen */
+    width: 100%;
+    /* stay at the bottom */
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
