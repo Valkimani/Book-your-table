@@ -1,14 +1,27 @@
-        .navbar-light .navbar-brand{
+       
+      html, body{
+          height:100%;
+
+       }
+       
+       .navbar-light .navbar-brand{
     color: rgba(0,0,0,.9);
-    background-color: red;
+    /* background-color: red; */
 }
-    /* footer */
+  .pcontainer-fluid {
+           min-height: 100%;
+       }  /* footer */
     .footer{
         background-color: grey;
         color: white;
         height: 400px;
     }
+    .footer .footer-content {
 
+border: 1px solid white;
+height: 350px;
+
+    } 
 .footer .footer-bottom {
     background-color: rgb(83, 81, 81);
     color: rgb(216, 199, 199);
